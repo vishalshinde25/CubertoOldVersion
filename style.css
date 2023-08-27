@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "averta cy w10";
+}
+*::selection{
+    color: white;
+    background: black;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: white;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+#nav{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    width: 100px;
+}
+#nav #navheading{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+    align-items: center;
+}
+#nav #navheading a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+#nav #navheading i{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+#home #homemain{
+    width: 100%;
+    /* background: red; */
+    padding: 15vw 16vw;
+}
+#homemain h5{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.main-headings{
+    display: flex;
+    gap: 40px;
+}
+#homemain .main-headings h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 6vw;
+    font-weight: 900;
+    letter-spacing: none;
+    line-height: 1;
+}
+#homemain .main-headings h1:hover{
+    color: black;
+}
+#home-last{
+    /* background-color: red; */
+    padding: 12vw 0vw;
+    width: 70%;
+}
+#home-last p{
+    font-size: 1.6vw;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+#featured{
+    padding: 10vw 15vw;
+}
+#featured h1{
+    line-height: 1;
+    font-size: 3vw;
+    font-weight: 400;
+}
+#featured .projects{
+    color: transparent;
+    -webkit-text-stroke: 0.8px black;
+}
+#featuredimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5vw;
+    /* padding: 0vw 5vw; */
+    /* background-color: red; */
+}
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* object-fit: cover; */
+    width: 45%;
+    height: inherit;
+    /* height: 80vh; */
+    /* background-color: blue; */
+}
+#fleft{
+    /* overflow: auto; */
+    width: 45%;
+    height: inherit;
+    /* height: 80vh; */
+    /* background-color: aqua; */
+    /* border: 1px solid gray; */
+}
+#fright .images{
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+    
+}
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.fleftelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+.fleftelem h1{
+    font-size: 2.3vw;
+    font-weight: 400;
+    margin: 1.5vw 0;
+}
+.fleftelem h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.fleftelem h4{
+    opacity: 0.7;
+    font-weight: 500;
+}
+#btndiv{
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btndiv button{
+    padding: 1vw 2vw;
+    border-radius: 100px;
+    border: 1.5px solid #dadada;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 550;
+    letter-spacing: -0.5px;
+}
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+#dev h1{
+    font-size: 4vw;
+    font-weight: 400;
+    width: 55%;
+    line-height: 1;
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -0.5px;
+    font-weight: 100;
+    width: 50%;
+    /* opacity: 0.6; */
+}
+
+#slides {
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 30%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .tag {
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
